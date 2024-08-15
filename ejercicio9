@@ -1,13 +1,6 @@
 public class ejercicio9 {
     public static void main(String[] args) {
-        int n=5, suma=0;
-        int num=1;
-        for(int i=0;i<n;i++){
-            suma+=num;
-            num+=2;
-
-        }
-        System.out.println(suma);
+        int n=5;
         System.out.println(cuadrado(5));
     }
     public static int cuadrado(int n){
